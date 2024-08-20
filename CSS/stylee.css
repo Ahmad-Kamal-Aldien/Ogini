@@ -457,7 +457,7 @@ nav.container ul li a.activecolor{
     /* padding: 2rem; */
     padding: 1.2rem;
 
-    gap: 2;
+    gap: 1.2rem;
   
   
   
@@ -475,7 +475,7 @@ nav.container ul li a.activecolor{
    /* width: 23%;
    height: 400px; */
    position: relative;
-   width: 300px;
+   width: 340px;
    height: 400px;
     margin-left: 10px;
 }
@@ -530,8 +530,9 @@ padding: 1px;
 .Product{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.1rem;
+    gap: 1.2rem;
     margin-top: 15px;
+    margin-left: 15px;
 }
 .categories-tilte{
     position: relative;
@@ -548,7 +549,7 @@ padding: 1px;
 }
 .cat-product{
     display: flex;
-    gap:1.1rem;
+    gap:1.2rem;
    justify-content: center;
    margin-top: 10px;
 
@@ -576,6 +577,7 @@ padding: 1px;
 position: relative;
 width: 300px;
 height: 350px;
+margin-left: 20px;
 }
 .product-name a{
     color: var(--secondary);
@@ -593,7 +595,7 @@ font-weight: 800;
         display: flex;
         gap: 1.1rem;
         bottom: 70px;
-        left: 60px;
+        left: 80px;
         visibility: hidden;
         transition:bottom .5s;
         -webkit-transition:bottom .5s;
@@ -640,10 +642,11 @@ font-weight: 800;
 /* Start Of Discount */
 .discount{
     margin-top: 25px;
+    margin-left: 35px;
     display: flex;
   
     flex-wrap: wrap;
-    gap: 8rem;
+    gap: 16rem;
 }
 
 
@@ -675,6 +678,41 @@ width: 400px;
        height: 100px;
     }
 }
+@media only screen  and (max-width: 1804px) {
+    .item-discount{
+      
+        width:400px;
+     }
+   
+    .discount{
+        
+        gap: 6rem;
+            }
+}
 
 /* End Of Discount */
+
+/* Start Of Blog */
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    
+}
+.blog-item img{
+    width: 100%;
+}
+.blog-item{
+    margin-left: 40px;
+margin-top: 30px;
+    width: 390px;
+    height: 350px;
+}
+.blog-item i{
+opacity: .2;
+}
+.blog-item-title{
+    font-weight: 800;
+}
+/* End Of Blog */
 
